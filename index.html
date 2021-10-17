@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
 
+    <link href="index.css" rel="stylesheet" />
+
     <title>Home BGS</title>
     <link rel="browser icon" type="image/png" href="media/favicon.png" />
   </head>
@@ -21,40 +23,69 @@
         <li>07712345678</li>
         <li>Petersfield</li>
         <li>Facebook icon</li>
-        <li><button>Free Quote</button></li>
       </ul>
+      <button type="button" class="btn btn-success">Free Quote</button>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/services.html">Services</a></li>
-        <li><a href="pages/projects.html">Projects</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
-      </ul>
-
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
-
-      <form>
-        <input type="search" name="q" placeholder="Look for" />
-        <input type="submit" value="Search" />
-      </form>
+    <nav class="nav nav-pills nav-justified">
+      <a class="nav-item nav-link" href="pages/about.html">About</a>
+      <a class="nav-item nav-link" href="pages/services.html">Services</a>
+      <a class="nav-item nav-link" href="pages/projects.html">Projects</a>
+      <a class="nav-item nav-link" href="pages/contact.html">Contact</a>
     </nav>
+
     <main>
       <div class="homepage-slogan">
         <h1>Looking for a perfectly crafed outdoor space?</h1>
         <h2>
           We specialise in creative landscape design and artistic solutions
         </h2>
-        <img src="media/Bartonmain.jpeg" alt="Landscaping" />
+        <img src="media/Bartonmain.jpeg" class="img-fluid" alt="Landscaping" />
       </div>
 
-      <div class="homepage-mainservices"></div>
-      <ul>
-        <li>Landscaping</li>
-        <li>Maintence</li>
-        <li>Jetwashing</li>
-      </ul>
+      <div class="card-group">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Landscaping</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Maintence</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Jetwashing</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
