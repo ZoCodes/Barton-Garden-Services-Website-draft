@@ -1,12 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f2f9f1;
+  background-color: #5c715e;
   margin-left: -2%;
   margin-right: -2%;
 }
 
 header {
   background-color: #5c715e;
+  color: #f2f9f1;
+  border-width: 2px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  text-align: center;
 }
 
 .img-fluid {
@@ -26,6 +31,7 @@ header {
 
 .card-style-h1 {
   text-align: center;
+  color: #f2f9f1;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 65px;
@@ -34,9 +40,11 @@ header {
 
 .card-style-h2 {
   text-align: center;
+  color: #f2f9f1;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .quote-button {
