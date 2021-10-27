@@ -1,28 +1,31 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #5c715e;
-  margin-left: -2%;
-  margin-right: -2%;
+  background: #f2f9f1;
 }
 
 header {
-  background-color: #5c715e;
-  color: #f2f9f1;
-  border-width: 2px;
-  margin-bottom: 3px;
-  margin-top: 5px;
   text-align: center;
+  color: #5c715e;
+  padding: 10px;
+  margin: 10px;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  width: 100% \9;
+.nav-link {
+  color: #5c715e;
 }
 
-.card {
+.main-card {
   border-color: #5c715e;
-  border-width: 2px;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+  padding: 10px;
+  margin: 20px;
+}
+
+.service-cards {
+  border-radius: 4px;
+  margin: 20px;
+  border: 1px solid #5c715e;
 }
 
 .service-text {
@@ -60,4 +63,11 @@ header {
   background-color: #f2f9f1;
   border: #b6cdbd;
   cursor: pointer;
+}
+
+.main-images {
+  border-radius: 2px;
+  margin-bottom: 20px;
+  border: 1px solid #5c715e;
+  display: inline;
 }
