@@ -26,9 +26,7 @@ header {
 }
 
 .card-img-overlay {
-  display: grid;
-  align-items: start;
-  justify-items: center;
+  position: static;
 }
 .card-style-h1 {
   text-align: center;
@@ -36,7 +34,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 45px;
-  margin: 50px;
+  margin: 10px;
 }
 
 .card-style-h2 {
