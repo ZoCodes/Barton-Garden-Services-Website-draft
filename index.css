@@ -20,6 +20,8 @@ header {
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
   margin: 20px;
+  height: auto;
+  width: 100%;
 }
 
 .service-cards {
@@ -28,6 +30,8 @@ header {
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
   margin: 20px;
+  height: auto;
+  width: 100%;
 }
 
 .service-text {
