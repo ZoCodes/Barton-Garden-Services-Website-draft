@@ -40,3 +40,17 @@ h2 {
   height: auto;
   width: 100%;
 }
+
+.card-title {
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-two-left {
+  padding-bottom: 52px;
+}
