@@ -10,7 +10,7 @@ header {
   margin: 10px;
 }
 
-.nav {
+btn .nav {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-size: 20px;
@@ -19,6 +19,12 @@ header {
   color: #124a2f;
 }
 
+.btn {
+  color: #fcfaf7;
+  background: #124a2f;
+  border: solid #124a2f;
+  border-radius: 4px;
+}
 .main-card {
   border-color: #124a2f;
   border-radius: 6px;

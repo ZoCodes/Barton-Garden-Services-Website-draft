@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fcfaf7;
+  color: #124a2f;
+  text-align: center;
 }
 
 header {
@@ -10,6 +12,9 @@ header {
   margin: 10px;
 }
 
+h2 {
+  margin-bottom: 30px;
+}
 .nav {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -17,4 +22,21 @@ header {
 }
 .nav-link {
   color: #124a2f;
+}
+
+.btn {
+  color: #fcfaf7;
+  background: #124a2f;
+  border: solid #124a2f;
+  border-radius: 4px;
+}
+
+.card {
+  border-color: #124a2f;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  width: 100%;
 }
