@@ -1,11 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #f2f9f1;
+  background: #fcfaf7;
 }
 
 header {
   text-align: center;
-  color: #5c715e;
+  color: #124a2f;
   padding: 10px;
   margin: 10px;
 }
@@ -16,11 +16,11 @@ header {
   font-size: 20px;
 }
 .nav-link {
-  color: #5c715e;
+  color: #124a2f;
 }
 
 .main-card {
-  border-color: #5c715e;
+  border-color: #124a2f;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
@@ -35,7 +35,7 @@ header {
 }
 .card-style-h1 {
   text-align: center;
-  color: #f2f9f1;
+  color: #fcfaf7;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 45px;
@@ -44,14 +44,14 @@ header {
 
 .card-style-h2 {
   text-align: center;
-  color: #f2f9f1;
+  color: #fcfaf7;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 25px;
 }
 
 .service-cards {
-  border-color: #5c715e;
+  border-color: #124a2f;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
@@ -60,28 +60,9 @@ header {
   width: 100%;
 }
 
-.service-text {
-  color: #5c715e;
-}
-
-.quote-button {
-  display: block;
-  margin: 0 auto;
-  color: #f2f9f1;
-  background-color: #5c715e;
-  border: #b6cdbd;
-}
-
-.quote-button :hover {
-  color: #5c715e;
-  background-color: #f2f9f1;
-  border: #b6cdbd;
-  cursor: pointer;
-}
-
 .main-images {
   border-radius: 2px;
   margin-bottom: 20px;
-  border: 1px solid #5c715e;
+  border: 1px solid #124a2f;
   display: inline;
 }

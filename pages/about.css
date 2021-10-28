@@ -1,0 +1,20 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fcfaf7;
+}
+
+header {
+  text-align: center;
+  color: #124a2f;
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.nav-link {
+  color: #124a2f;
+}
