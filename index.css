@@ -5,7 +5,7 @@ body {
 
 header {
   text-align: center;
-  color: #124a2f;
+  color: #343a40;
   padding: 10px;
   margin: 10px;
 }
@@ -15,12 +15,12 @@ iframe {
   margin: 0 auto;
   padding: 10px;
   border-radius: 4px;
-  border-color: #124a2f;
+  border-color: #343a40;
 }
 
 footer {
   text-align: center;
-  color: #124a2f;
+  color: #343a40;
   font-size: 12px;
   padding: 10px;
   margin: 10px;
@@ -36,18 +36,18 @@ btn .nav {
   font-size: 20px;
 }
 .nav-link {
-  color: #124a2f;
+  color: #343a40;
 }
 
 .btn {
   color: #fcfaf7;
-  background: #124a2f;
-  border: solid #124a2f;
+  background: #343a40;
+  border: solid #343a40;
   border-radius: 4px;
 }
 
 .main-card {
-  border-color: #124a2f;
+  border-color: #343a40;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
@@ -78,7 +78,7 @@ btn .nav {
 }
 
 .service-cards {
-  border-color: #124a2f;
+  border-color: #343a40;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
@@ -90,15 +90,20 @@ btn .nav {
 .main-images {
   border-radius: 2px;
   margin-bottom: 20px;
-  border: 1px solid #124a2f;
+  border: 1px solid #343a40;
   display: inline;
 }
 
 .contact-card {
   border: solid 2px;
-  border-color: #124a2f;
+  border-color: #343a40;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
   margin: 10px;
+}
+.card-header {
+  color: #fcfaf7;
+  font-family: "Roboto", sans-serif;
+  background: #343a40;
 }

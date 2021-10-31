@@ -1,19 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fcfaf7;
-  color: #124a2f;
+  color: #343a40;
   text-align: center;
 }
 
 header {
   text-align: center;
-  color: #124a2f;
-  padding: 10px;
+  color: #343a40;
+  padding: 15px;
   margin: 10px;
 }
 
 h2 {
   margin-bottom: 30px;
+  font-size: 25px;
 }
 
 iframe {
@@ -21,12 +22,12 @@ iframe {
   margin: 0 auto;
   padding: 10px;
   border-radius: 4px;
-  border-color: #124a2f;
+  border-color: #343a40;
 }
 
 footer {
   text-align: center;
-  color: #124a2f;
+  color: #343a40;
   font-size: 12px;
   padding: 10px;
   margin: 10px;
@@ -36,25 +37,25 @@ footer a {
   color: purple;
 }
 
-.nav {
+btn .nav {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-size: 20px;
 }
 .nav-link {
-  color: #124a2f;
+  color: #343a40;
 }
 
 .btn {
   color: #fcfaf7;
-  background: #124a2f;
-  border: solid #124a2f;
+  background: #343a40;
+  border: solid #343a40;
   border-radius: 4px;
 }
 
 .card {
   border: solid 3px;
-  border-color: #124a2f;
+  border-color: #343a40;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
@@ -76,13 +77,13 @@ footer a {
 .card-text {
   font-size: 18px;
   opacity: 90%;
-  color: #124a2f;
+  color: #343a40;
 }
 
 .small-text {
   font-size: 16px;
   opacity: 80%;
-  color: #124a2f;
+  color: #343a40;
 }
 
 .card-two-left {
@@ -91,9 +92,14 @@ footer a {
 
 .contact-card {
   border: solid 3px;
-  border-color: #124a2f;
+  border-color: #343a40;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
   margin: 10px;
+}
+.card-header {
+  color: #fcfaf7;
+  font-family: "Roboto", sans-serif;
+  background: #343a40;
 }
