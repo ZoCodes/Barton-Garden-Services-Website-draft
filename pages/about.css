@@ -15,6 +15,27 @@ header {
 h2 {
   margin-bottom: 30px;
 }
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #124a2f;
+}
+
+footer {
+  text-align: center;
+  color: #124a2f;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer a {
+  color: purple;
+}
+
 .nav {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -66,4 +87,13 @@ h2 {
 
 .card-two-left {
   padding-bottom: 52px;
+}
+
+.contact-card {
+  border: solid 3px;
+  border-color: #124a2f;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+  padding: 10px;
+  margin: 10px;
 }
