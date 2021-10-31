@@ -10,6 +10,18 @@ header {
   margin: 10px;
 }
 
+footer {
+  text-align: center;
+  color: #124a2f;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer a {
+  color: purple;
+}
+
 btn .nav {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -25,6 +37,7 @@ btn .nav {
   border: solid #124a2f;
   border-radius: 4px;
 }
+
 .main-card {
   border-color: #124a2f;
   border-radius: 6px;

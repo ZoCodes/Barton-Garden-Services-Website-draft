@@ -32,6 +32,7 @@ h2 {
 }
 
 .card {
+  border: solid 3px;
   border-color: #124a2f;
   border-radius: 6px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
@@ -39,6 +40,10 @@ h2 {
   margin: 10px;
   height: auto;
   width: 100%;
+}
+
+.about-card {
+  border: solid 8px;
 }
 
 .card-title {
@@ -49,6 +54,14 @@ h2 {
 
 .card-text {
   font-size: 18px;
+  opacity: 90%;
+  color: #124a2f;
+}
+
+.small-text {
+  font-size: 16px;
+  opacity: 80%;
+  color: #124a2f;
 }
 
 .card-two-left {
