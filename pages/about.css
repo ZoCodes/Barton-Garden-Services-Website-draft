@@ -35,13 +35,8 @@ p {
   margin: 10px;
 }
 
-iframe {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 4px;
-  border-color: #343a40;
+hr {
+  background-color: #fcfaf7;
 }
 
 footer p {
@@ -88,26 +83,27 @@ btn .nav {
   width: 100%;
 }
 
-.about-card {
-  border: solid 8px;
-}
-
 .card-title {
   font-size: 25px;
   font-weight: 500;
   text-decoration: underline;
 }
 
+.about-card {
+  background: #343a40;
+  color: #fcfaf7;
+}
+
 .card-text {
   font-size: 18px;
   opacity: 90%;
-  color: #343a40;
+  color: #fcfaf7;
 }
 
 .small-text {
   font-size: 16px;
   opacity: 80%;
-  color: #343a40;
+  color: #fcfaf7;
 }
 
 .contact-card {
@@ -117,6 +113,7 @@ btn .nav {
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   padding: 10px;
   margin: 10px;
+  margin-top: 10px;
 }
 .card-header {
   color: #fcfaf7;
