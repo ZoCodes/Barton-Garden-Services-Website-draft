@@ -19,11 +19,20 @@ h1 {
   font-weight: bold;
   font-size: 45px;
   margin: 10px;
+  margin-bottom: 30px;
 }
 
-h2 {
-  margin-bottom: 30px;
-  font-size: 25px;
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin: 10px;
 }
 
 iframe {
@@ -35,7 +44,7 @@ iframe {
   border-color: #343a40;
 }
 
-footer {
+footer p {
   text-align: center;
   color: #343a40;
   font-size: 12px;
