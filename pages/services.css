@@ -81,3 +81,13 @@ btn .nav {
   opacity: 90%;
   color: #343a40;
 }
+
+.service-card-title {
+  font-size: 20px;
+}
+
+.service-card-text {
+  font-size: 15px;
+  opacity: 80%;
+  color: #343a40;
+}
