@@ -12,6 +12,15 @@ header {
   margin: 10px;
 }
 
+h1 {
+  text-align: center;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 10px;
+}
+
 h2 {
   margin-bottom: 30px;
   font-size: 25px;
