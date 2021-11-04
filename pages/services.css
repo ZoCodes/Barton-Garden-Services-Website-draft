@@ -45,6 +45,10 @@ iframe {
   border-color: #343a40;
 }
 
+ul {
+  text-align: left;
+}
+
 footer p {
   text-align: center;
   color: #343a40;
@@ -77,7 +81,6 @@ btn .nav {
   border: solid #343a40;
   border-radius: 4px;
 }
-
 .card {
   border: solid 3px;
   border-color: #343a40;
