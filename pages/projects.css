@@ -34,16 +34,9 @@ p {
   font-size: 18px;
   margin: 10px;
 }
-
-iframe {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 4px;
-  border-color: #343a40;
+a {
+  color: #537627;
 }
-
 footer p {
   text-align: center;
   color: #343a40;
