@@ -48,7 +48,7 @@ footer p {
 }
 
 footer a {
-  color: purple;
+  color: #537627;
 }
 
 .app-wrapper {
@@ -95,7 +95,7 @@ btn .nav {
 }
 
 .card-text {
-  font-size: 18px;
+  font-size: 17px;
   opacity: 90%;
   color: #fcfaf7;
 }

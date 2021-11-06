@@ -33,9 +33,14 @@ p {
   margin: 10px;
 }
 
+a {
+  color: #537627;
+}
+
 iframe {
   display: block;
   margin: 0 auto;
+  margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 4px;
@@ -51,7 +56,7 @@ footer p {
 }
 
 footer a {
-  color: purple;
+  color: #537627;
 }
 
 .app-wrapper {
