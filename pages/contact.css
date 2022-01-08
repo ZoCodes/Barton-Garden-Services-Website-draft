@@ -1,6 +1,12 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
   background: #fcfaf7;
+  height: 100vh;
+  margin: 0;
+  color: #343a40;
+  text-align: center;
 }
 
 header {
@@ -79,3 +85,4 @@ btn .nav {
   border: solid #343a40;
   border-radius: 4px;
 }
+
