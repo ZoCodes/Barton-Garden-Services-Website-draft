@@ -30,6 +30,14 @@ img {
   margin: 0 auto;
 }
 
+p.phone {
+  text-align: center;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin: 10px;
+}
+
 footer {
   text-align: center;
   color: #343a40;
@@ -61,7 +69,10 @@ btn .nav {
   background: #343a40;
   border: solid #343a40;
   border-radius: 4px;
+  opacity: 95%;
+  margin: 10px auto;
 }
+
 
 .main-card {
   border-color: #343a40;
@@ -72,6 +83,7 @@ btn .nav {
   height: auto;
   width: 100%;
   position: relative;
+  opacity: 95%;
 }
 
 .card-img-overlay {
@@ -92,35 +104,4 @@ btn .nav {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 25px;
-}
-
-.service-cards {
-  border-color: #343a40;
-  border-radius: 6px;
-  box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
-  padding: 10px;
-  margin: 20px;
-  height: auto;
-  width: 100%;
-}
-
-.main-images {
-  border-radius: 2px;
-  margin-bottom: 20px;
-
-  display: inline;
-}
-
-.contact-card {
-  border: solid 2px;
-  border-color: #343a40;
-  border-radius: 6px;
-  box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
-  padding: 10px;
-  margin: 10px;
-}
-.card-header {
-  color: #fcfaf7;
-  font-family: "Roboto", sans-serif;
-  background: #343a40;
 }
